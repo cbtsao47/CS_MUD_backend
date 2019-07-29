@@ -32,6 +32,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "room",
+    "player",
+    "map",
     "graphene_django",
     'django.contrib.admin',
     'django.contrib.auth',
